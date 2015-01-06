@@ -173,7 +173,7 @@ if &t_Co > 255
    hi IncSearch       ctermfg=193 ctermbg=16
 
    hi keyword         ctermfg=161               cterm=bold
-   hi Label           ctermfg=229               cterm=none
+   hi Label           ctermfg=161               cterm=none
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
@@ -231,6 +231,7 @@ if &t_Co > 255
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
+   hi TabLineFill     ctermfg=236
 
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
